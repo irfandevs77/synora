@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1002344068231",
+    "project_id": "synora-9c49e",
+    "storage_bucket": "synora-9c49e.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1002344068231:android:aca144b275f59d0cb27422",
+        "android_client_info": {
+          "package_name": "com.synora.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA2zGldBWbU3w2R1SAHFckm4wOFRPgjFb0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

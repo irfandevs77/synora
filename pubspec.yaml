@@ -1,0 +1,80 @@
+name: synora
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.8.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Firebase
+  firebase_core: ^4.1.0
+  firebase_auth: ^6.0.1
+  cloud_firestore: ^6.0.0
+  cloud_functions: ^6.0.1
+  firebase_storage: ^13.4.2
+  firebase_messaging: ^16.0.0
+  flutter_local_notifications: ^19.4.0
+
+  # State Management
+  get: ^4.7.2
+
+  # Local Storage
+  shared_preferences: ^2.5.3
+  flutter_secure_storage: ^10.3.4
+
+  # Network
+  http: ^1.6.0
+
+  # Images
+  cached_network_image: ^3.4.1
+  image_picker: ^1.1.2
+  camera: ^0.11.2
+
+  # Utils
+  intl: ^0.20.2
+  permission_handler: ^12.0.1
+  country_code_picker: ^3.3.0
+  share_plus: ^11.0.0
+  app_links: ^6.4.1
+  record: ^7.1.1
+  path_provider: ^2.1.6
+  local_auth: ^3.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^6.0.0
+
+  flutter_native_splash: ^2.4.6
+  flutter_launcher_icons: ^0.14.4
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+
+flutter_native_splash:
+  color: "#090C1A"
+  image: assets/images/synora_logo.png
+
+  android: true
+  ios: true
+  web: false
+
+  android_12:
+    color: "#090C1A"
+    image: assets/images/synora_logo.png
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/images/synora_logo.png"
+  adaptive_icon_background: "#090C1A"
+  adaptive_icon_foreground: "assets/images/synora_logo.png"
